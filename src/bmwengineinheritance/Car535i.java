@@ -18,6 +18,6 @@ public class Car535i extends FiveSeries {
     
     double displacement = engine.getDisplacement();
     
-    int cylinders = engine.numberOfCylinders;
+    //int cylinders = engine.numberOfCylinders;
     
 }

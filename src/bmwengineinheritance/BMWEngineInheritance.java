@@ -54,7 +54,8 @@ public class BMWEngineInheritance {
         
         Car535i car = new Car535i();
         
-        System.out.println(car.cylinders);
+        System.out.println(car.displacement);
+        System.out.println(car.engine.numberOfCylinders);
         
     }
     
