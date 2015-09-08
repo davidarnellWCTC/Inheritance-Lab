@@ -1,6 +1,8 @@
 
 package bmwengineinheritance;
 
+import bmwengineinheritance.Models.Car535i;
+
 /**
  *
  * @author Peter Zarafield
@@ -56,6 +58,8 @@ public class BMWEngineInheritance {
         
         System.out.println(car.displacement);
         System.out.println(car.engine.numberOfCylinders);
+        
+        //System.out.println(car.);
         
     }
     

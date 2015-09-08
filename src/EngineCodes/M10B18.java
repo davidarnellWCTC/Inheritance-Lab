@@ -3,29 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance;
+package EngineCodes;
+
+import EngineSeries.M10Engine;
 
 /**
  *
  * @author Peter Zarafield
  */
-public class M30B35 extends M30Engine {
+public class M10B18 extends M10Engine{
     
-    private final double displacement = 3.5;
+    private final double displacement = 1.8;
     
         public double getDisplacement(){
         return displacement;
     }
-
         
-    public double getNumberOfCylinders(){
+        public double getNumberOfCylinders(){
         return numberOfCylinders;
     }
-        
     
     public String getEngineLayout (){
         return engineLayout;
     }
-        
     
 }

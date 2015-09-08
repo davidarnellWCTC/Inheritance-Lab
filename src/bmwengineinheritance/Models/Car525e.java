@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance;
+package bmwengineinheritance.Models;
+
+import bmwengineinheritance.FiveSeries;
+import EngineCodes.M20B27;
 
 /**
  *
  * @author Peter Zarafield
  */
-public class Car325e extends ThreeSeries {
+public class Car525e extends FiveSeries {
     
-    final String modelName = "325i";
+    final String modelName = "525i";
     final String engineCode = "m20b27";
     
     M20B27 engine = new M20B27();

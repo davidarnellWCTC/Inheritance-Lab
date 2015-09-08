@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance;
+package EngineSeries;
 
 /**
  *
  * @author Peter Zarafield
  */
-public abstract class M20Engine implements MSeriesEngine {
+public abstract class M10Engine implements MSeriesEngine {
     
-    public int numberOfCylinders = 6;
+    public int numberOfCylinders = 4;
     public String engineLayout = "inline";
     
 }

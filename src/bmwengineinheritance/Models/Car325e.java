@@ -3,18 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance;
+package bmwengineinheritance.Models;
+
+import EngineCodes.M20B27;
+import bmwengineinheritance.ThreeSeries;
 
 /**
  *
  * @author Peter Zarafield
  */
-public class Car325i extends ThreeSeries {
+public class Car325e extends ThreeSeries {
     
     final String modelName = "325i";
-    final String engineCode = "m20b25";
+    final String engineCode = "m20b27";
     
-    M20B25 engine = new M20B25();
+    M20B27 engine = new M20B27();
     
     double displacement = engine.getDisplacement();
     

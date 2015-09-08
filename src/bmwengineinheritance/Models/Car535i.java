@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance;
+package bmwengineinheritance.Models;
+
+import bmwengineinheritance.FiveSeries;
+import EngineCodes.M30B35;
 
 /**
  *
@@ -14,9 +17,12 @@ public class Car535i extends FiveSeries {
     final String modelName = "535i";
     final String engineCode = "m30b35";
     
-    M30B35 engine = new M30B35();
+    // Was working without being marked public
+    // Stopped working, not sure why
+    // Marked it public and now it works again
+    public M30B35 engine = new M30B35();
     
-    double displacement = engine.getDisplacement();
+    public double displacement = engine.getDisplacement();
     
     //int cylinders = engine.numberOfCylinders;
     

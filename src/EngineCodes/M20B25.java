@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance;
+package EngineCodes;
+
+import EngineSeries.M20Engine;
 
 /**
  *
  * @author Peter Zarafield
  */
-public class M10B18 extends M10Engine{
+public class M20B25 extends M20Engine {
     
-    private final double displacement = 1.8;
+    private final double displacement = 2.5;
     
         public double getDisplacement(){
         return displacement;
