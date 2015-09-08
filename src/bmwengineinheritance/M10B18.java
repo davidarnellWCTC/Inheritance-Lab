@@ -16,5 +16,13 @@ public class M10B18 extends M10Engine{
         public double getDisplacement(){
         return displacement;
     }
+        
+        public double getNumberOfCylinders(){
+        return numberOfCylinders;
+    }
+    
+    public String getEngineLayout (){
+        return engineLayout;
+    }
     
 }

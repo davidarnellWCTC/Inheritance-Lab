@@ -16,5 +16,13 @@ public class M20B25 extends M20Engine {
         public double getDisplacement(){
         return displacement;
     }
+        
+        public double getNumberOfCylinders(){
+        return numberOfCylinders;
+    }
+    
+    public String getEngineLayout (){
+        return engineLayout;
+    }
     
 }

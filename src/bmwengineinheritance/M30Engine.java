@@ -11,7 +11,7 @@ package bmwengineinheritance;
  */
 public abstract class M30Engine implements MSeriesEngine {
     
-    private int numberOfCylinders = 6;
-    private String engineLayout = "inline";
+    public int numberOfCylinders = 6;
+    public String engineLayout = "inline";
     
 }

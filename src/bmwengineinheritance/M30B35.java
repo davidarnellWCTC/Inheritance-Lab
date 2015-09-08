@@ -9,12 +9,20 @@ package bmwengineinheritance;
  *
  * @author Peter Zarafield
  */
-public class M30B35 {
+public class M30B35 extends M30Engine {
     
     private final double displacement = 3.5;
     
         public double getDisplacement(){
         return displacement;
+    }
+        
+    public double getNumberOfCylinders(){
+        return numberOfCylinders;
+    }
+    
+    public String getEngineLayout (){
+        return engineLayout;
     }
     
 }
