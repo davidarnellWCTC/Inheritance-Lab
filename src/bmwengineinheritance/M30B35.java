@@ -16,13 +16,16 @@ public class M30B35 extends M30Engine {
         public double getDisplacement(){
         return displacement;
     }
-        
+
+    /*    
     public double getNumberOfCylinders(){
         return numberOfCylinders;
     }
+        
     
     public String getEngineLayout (){
         return engineLayout;
     }
+        */
     
 }

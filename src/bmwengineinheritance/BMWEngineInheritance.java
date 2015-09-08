@@ -52,6 +52,10 @@ public class BMWEngineInheritance {
         // Testing the inheritance 
         
         
+        Car535i car = new Car535i();
+        
+        System.out.println(car.cylinders);
+        
     }
     
 }

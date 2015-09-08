@@ -14,4 +14,12 @@ public abstract class M30Engine implements MSeriesEngine {
     public int numberOfCylinders = 6;
     public String engineLayout = "inline";
     
+    public double getNumberOfCylinders(){
+        return numberOfCylinders;
+    }
+        
+    public String getEngineLayout (){
+        return engineLayout;
+    }
+    
 }

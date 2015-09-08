@@ -9,7 +9,7 @@ package bmwengineinheritance;
  *
  * @author Peter Zarafield
  */
-public abstract class Car535i extends FiveSeries {
+public class Car535i extends FiveSeries {
     
     final String modelName = "535i";
     final String engineCode = "m30b35";
@@ -17,5 +17,7 @@ public abstract class Car535i extends FiveSeries {
     M30B35 engine = new M30B35();
     
     double displacement = engine.getDisplacement();
+    
+    int cylinders = engine.numberOfCylinders;
     
 }
