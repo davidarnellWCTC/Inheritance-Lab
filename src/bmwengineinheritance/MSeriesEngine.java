@@ -10,5 +10,5 @@ package bmwengineinheritance;
  * @author Peter Zarafield
  */
 public interface MSeriesEngine {
-    
+    //public int cyllinder; 
 }

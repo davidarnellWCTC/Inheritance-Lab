@@ -9,7 +9,7 @@ package bmwengineinheritance;
  *
  * @author Peter Zarafield
  */
-public abstract class Car530i extends FiveSeries {
+public class Car530i extends FiveSeries {
     
     final String modelName = "525i";
     final String engineCode = "m30b30";

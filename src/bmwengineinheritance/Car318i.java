@@ -9,7 +9,7 @@ package bmwengineinheritance;
  *
  * @author Peter Zarafield
  */
-public abstract class Car318i extends ThreeSeries {
+public class Car318i extends ThreeSeries {
     
     final String modelName = "318i";
     final String engineCode = "m10b18";
